@@ -1,0 +1,23 @@
+{
+  "name": "@butter-fly2/utils",
+  "version": "1.0.1",
+  "description": "> TODO: description",
+  "author": "fuhao1px <fuhao1px@163.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "index.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "node ../../command/build.js package=utils"
+  },
+  "gitHead": "b9554eb82d7e44ccc0d58e947512db3aacb0c9e4"
+}
