@@ -1,0 +1,18 @@
+{
+	"name": "@butter-fly2/button",
+	"version": "1.0.0",
+	"description": "",
+	"author": "",
+	"homepage": "",
+	"license": "ISC",
+	"main": "index.umd.js",
+	"publishConfig": {
+		"access": "public",
+		"registry": "https://registry.npmjs.org/"
+	},
+	"scripts": {
+		"build": "node ../../command/build.js package=button"
+	},
+	"module": "index.es.js",
+	"types": "index.d.ts"
+}

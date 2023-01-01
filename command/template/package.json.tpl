@@ -1,6 +1,6 @@
 {
-  "name": "@butter-fly2/button",
-  "version": "1.0.1",
+  "name": "@butter-fly2/{{ componentName }}",
+  "version": "1.0.0",
   "description": "",
   "author": "",
   "homepage": "",
@@ -11,7 +11,6 @@
     "registry": "https://registry.npmjs.org/"
   },
   "scripts": {
-    "build": "node ../../command/build.js package=button"
-  },
-  "gitHead": "d7c89a55b69e06fa2a385e929e9749b139bdad14"
+    "build": "node ../../command/build.js package={{ componentName }}"
+  }
 }

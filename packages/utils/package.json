@@ -19,5 +19,5 @@
   "scripts": {
     "build": "node ../../command/build.js package=utils"
   },
-  "gitHead": "b9554eb82d7e44ccc0d58e947512db3aacb0c9e4"
+  "gitHead": "d7c89a55b69e06fa2a385e929e9749b139bdad14"
 }

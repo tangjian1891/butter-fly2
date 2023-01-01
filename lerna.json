@@ -1,0 +1,22 @@
+{
+  "version": "independent",
+  "private": true,
+  "useWorkspaces": true,
+  "npmClient": "yarn",
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "*.md"
+      ],
+      "conventionalCommits": true,
+      "exact": true
+    },
+    "bootstrap": {
+      "ignore": "component-*",
+      "npmClientArgs": ["--no-package-lock"]      
+    }
+  }
+}
