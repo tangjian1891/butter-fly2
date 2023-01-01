@@ -14,7 +14,7 @@
   </div>
 </template>
 <script lang='ts'>
-import { defineComponent, reactive } from 'vue';
+import { defineComponent, ref } from 'vue';
 import { Collapse, CollapseItem } from 'vant';
 export default defineComponent({
   components: {
@@ -22,7 +22,7 @@ export default defineComponent({
     [CollapseItem.name]: CollapseItem,
   },
   setup() {
-    const activeNames = reactive([]);
+    const activeNames = ref([]);
     return {
       activeNames
     }

@@ -1,4 +1,4 @@
-import { defineComponent as E, reactive as d, resolveComponent as m, openBlock as F, createElementBlock as f, createVNode as n, withCtx as s, createTextVNode as c } from "vue";
+import { defineComponent as E, ref as d, resolveComponent as m, openBlock as f, createElementBlock as F, createVNode as n, withCtx as s, createTextVNode as c } from "vue";
 import { Collapse as r, CollapseItem as p } from "vant";
 const B = (u, e) => {
   if (u.install = (t) => {
@@ -8,7 +8,7 @@ const B = (u, e) => {
     for (const [t, o] of Object.entries(e))
       u[t] = o;
   return u;
-}, v = E({
+}, C = E({
   components: {
     [r.name]: r,
     [p.name]: p
@@ -18,7 +18,7 @@ const B = (u, e) => {
       activeNames: d([])
     };
   }
-}), C = (u, e) => {
+}), v = (u, e) => {
   const t = u.__vccOpts || u;
   for (const [o, l] of e)
     t[o] = l;
@@ -26,7 +26,7 @@ const B = (u, e) => {
 }, A = /* @__PURE__ */ c(" 代码是写出来给人看的，附带能在机器上运行。 "), D = /* @__PURE__ */ c(" 技术无非就是那些开发它的人的共同灵魂。 "), N = /* @__PURE__ */ c(" 在代码阅读过程中人们说脏话的频率是衡量代码质量的唯一标准。 ");
 function V(u, e, t, o, l, k) {
   const a = m("van-collapse-item"), _ = m("van-collapse");
-  return F(), f("div", null, [
+  return f(), F("div", null, [
     n(_, {
       modelValue: u.activeNames,
       "onUpdate:modelValue": e[0] || (e[0] = (i) => u.activeNames = i)
@@ -64,7 +64,7 @@ function V(u, e, t, o, l, k) {
     }, 8, ["modelValue"])
   ]);
 }
-const h = /* @__PURE__ */ C(v, [["render", V]]), b = B(h);
+const h = /* @__PURE__ */ v(C, [["render", V]]), b = B(h);
 export {
   b as BFButton,
   b as default
