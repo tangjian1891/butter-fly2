@@ -1,5 +1,6 @@
 <template>
   <div>
+    <div class="ddd_title">看看样式能生效吗</div>
     <van-collapse v-model="activeNames">
       <van-collapse-item title="标题1" name="1">
         代码是写出来给人看的，附带能在机器上运行。
@@ -29,5 +30,8 @@ export default defineComponent({
   }
 })
 </script>
-<style lang='scss' scoped>
+<style scoped>
+.ddd_title {
+  color: red;
+}
 </style>

@@ -112,7 +112,12 @@ const buildComponent = async () => {
   // 先删除dist
   await removeDir(outDir);
   // 开始构建
-  await buildAll();
+  try {
+    await buildAll();
+  } catch (error) {
+    console.log(error)
+  }
+  
   // 创建依赖包package.json
   await createPackageJson(entryDir, outDir);
   console.log(symbols.success, chalk.green(`${packageName}构建成功！`));

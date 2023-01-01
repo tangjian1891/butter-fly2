@@ -1,8 +1,8 @@
 // import { withInstall } from '@butter-fly/utils';
 import { withInstall } from '../utils/vue/index'
 
-import _BFButton from './src/index.vue';
+import _BFCollapse from './src/index.vue';
 
-export const BFButton = withInstall(_BFButton);
+export const BFCollapse = withInstall(_BFCollapse);
 
-export default BFButton;
+export default BFCollapse;
