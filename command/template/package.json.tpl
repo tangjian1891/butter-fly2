@@ -1,5 +1,5 @@
 {
-  "name": "@butter-fly2/{{ componentName }}",
+  "name": "@butter-fly3/{{ componentName }}",
   "version": "1.0.0",
   "description": "",
   "author": "",
