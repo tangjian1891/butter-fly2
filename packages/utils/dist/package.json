@@ -1,6 +1,6 @@
 {
 	"name": "@butter-fly3/utils",
-	"version": "1.0.2",
+	"version": "1.0.4",
 	"description": "> TODO: description",
 	"author": "fuhao1px <fuhao1px@163.com>",
 	"homepage": "",
@@ -14,12 +14,14 @@
 		"registry": "https://registry.npmjs.org/"
 	},
 	"files": [
-		"lib"
+		"lib",
+		"dist",
+		"vue"
 	],
 	"scripts": {
 		"build": "node ../../command/build.js package=utils"
 	},
-	"gitHead": "b5b0b874a2b975bd1d34d9c651617d276f6c82ed",
+	"gitHead": "fbd960e599cf12e6cb18a1736f6c396a9fd5dd21",
 	"module": "index.es.js",
 	"types": "index.d.ts"
 }
