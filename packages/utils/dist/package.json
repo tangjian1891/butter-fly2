@@ -1,6 +1,6 @@
 {
 	"name": "@butter-fly3/utils",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "> TODO: description",
 	"author": "fuhao1px <fuhao1px@163.com>",
 	"homepage": "",
@@ -19,7 +19,7 @@
 	"scripts": {
 		"build": "node ../../command/build.js package=utils"
 	},
-	"gitHead": "b9554eb82d7e44ccc0d58e947512db3aacb0c9e4",
+	"gitHead": "b5b0b874a2b975bd1d34d9c651617d276f6c82ed",
 	"module": "index.es.js",
 	"types": "index.d.ts"
 }
