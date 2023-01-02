@@ -1,4 +1,4 @@
-(function(){ try {var elementStyle = document.createElement('style'); elementStyle.appendChild(document.createTextNode(".ddd_title[data-v-045677bc]{color:red}")); document.head.appendChild(elementStyle);} catch(e) {console.error('vite-plugin-css-injected-by-js', e);} })();import { defineComponent as i, ref as F, resolveComponent as _, openBlock as E, createElementBlock as f, createVNode as n, withCtx as s, createTextVNode as a, pushScopeId as v, popScopeId as B, createElementVNode as C } from "vue";
+import { defineComponent as i, ref as F, resolveComponent as _, openBlock as E, createElementBlock as f, createVNode as n, withCtx as s, createTextVNode as a, pushScopeId as v, popScopeId as B, createElementVNode as C } from "vue";
 import { Collapse as p, CollapseItem as d } from "vant";
 const D = (u, e) => {
   if (u.install = (t) => {
