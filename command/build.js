@@ -6,6 +6,7 @@ import { defineConfig, build } from 'vite';
 import vue from '@vitejs/plugin-vue';
 import vueJsx from '@vitejs/plugin-vue-jsx';
 import dts from 'vite-plugin-dts';
+import VitePluginStyleInject from 'vite-plugin-style-inject';
 
 const outputDir = 'dist'; // 构建产物文件夹名称
 
@@ -23,6 +24,7 @@ const baseConfig = defineConfig({
   plugins: [
     vue(),
     vueJsx(),
+    VitePluginStyleInject(),
     dts({
       insertTypesEntry: true,
       copyDtsFiles: false,

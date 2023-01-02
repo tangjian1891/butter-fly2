@@ -5386,6 +5386,11 @@ vite-plugin-dts@^1.7.1:
     kolorist "^1.6.0"
     ts-morph "^16.0.0"
 
+vite-plugin-style-inject@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/vite-plugin-style-inject/-/vite-plugin-style-inject-0.0.1.tgz#93a93ee472231e35bca120529beb4fb2a6fbb586"
+  integrity sha512-VsaBOb8ozMQn3kpMt4gIcyNt4BRMQ3Cq30eLIBtq1CH8U6iB1FnxVYspwITzJdXbMQA61QhyAx9QnNLwVRbDlg==
+
 vite@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/vite/-/vite-4.0.3.tgz#de27ad3f263a03ae9419cdc8bc07721eadcba8b9"
